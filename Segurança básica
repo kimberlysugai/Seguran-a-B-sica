@@ -1,5 +1,3 @@
-Objetivo a aula de hoje: 12/03/2024 (CONTINUAÇÃO)
-
 CUIDADO COM AS PLACAS DE REDE ON-BOARD E OFF-BOOARD NAS MÁQUINAS VIRTUAL, VERIIFCAR SE ESTÁ PEGANDO ENDEREÇO IPV4 E SE ESTÁ PINGANDO A INTERNET (VAMOS RETORMAR OS PROCEDIMENTOS DE IP E CONFIGURAÇÕES DE REDE PARA O MELHOR ENTENDIMENTO).
 
 Conceitos Básicos de Segurança Windows, GNU/Linux, Redes de Computadores e Usuários Finais:
@@ -67,7 +65,6 @@ Iniciar, Painel de Controle, Firewall do Windows
 Negar ICMP...: sudo sysctl net.ipv4.icmp_echo_ignore_all=1
 Permitir ICMP: sudo sysctl net.ipv4.icmp_echo_ignore_all=0
 
-DESAFIOS:
 IMPORTANTE: CONFIGURAR A PLACA DE REDE EM MODO BRIDGE PARA OBTER O ENDEREÇO IPV4 DA REDE DO SENAC.
 IMPORTANTE: CUIDADO COM O NOME DA MÁQUINA.
 
@@ -80,4 +77,3 @@ IMPORTANTE: CUIDADO COM O NOME DA MÁQUINA.
 		   Windows Powershell;
 		f) Testar os Pings com os seus colegas.
 		
-	FINALIZAÇÃO: DOCUMENTAR NO GITHUB OS PROCEDIMENTOS UTILIZADOS NESSE DESAFIO.
